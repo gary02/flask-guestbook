@@ -5,7 +5,7 @@ __author__ = 'jiangge'
 
 import shelve
 from datetime import datetime
-from flask import Flask, request, render_template, redirectp
+from flask import Flask, request, render_template, redirect
 
 application = Flask(__name__)
 
